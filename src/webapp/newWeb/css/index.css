@@ -1,5 +1,6 @@
+
 .fontType {
-  color: black;
+  color: white;
   text-align: right;
   font-family: Inter;
   font-size: 13.234px;
@@ -19,6 +20,7 @@
   display: flex;
 }
 .header-container {
+    position: relative;
     width: 100%;
     padding-left: 16px;
     padding-right: 15.97px;
@@ -202,6 +204,7 @@ footer {
     justify-content: flex-start;
     align-items: center;
     display: flex;
+    position: relative;
 }
 
 /* Styling for the main content container in the footer */
@@ -281,7 +284,7 @@ footer {
   }
 
   .footerContent {
-      margin-bottom: 10px;
+      margin-bottom: 60px;
   }
     .newsletter-section,
     .footer-navigation,
@@ -290,7 +293,7 @@ footer {
         padding-right: 10px;
     }
     .logo-container img{
-      width: 100%;
+      width: 50%;
       float: right;
     }
     .newsletter-section img {

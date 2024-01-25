@@ -1,4 +1,4 @@
-var a = angular.module("myapp",['ngRoute']);
+var a = angular.module("myapp",["ngRoute"]);
 a.controller("myctrl",function($scope){
 })
 a.config(function($routeProvider){
